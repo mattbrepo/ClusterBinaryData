@@ -20,7 +20,7 @@ I needed to perform a [cluster analysis](https://en.wikipedia.org/wiki/Cluster_a
 - sqeuclidean
 - yule
 
-## The dataset
+## Dataset
 The dataset has 100 rows and 6 columns: a unique ID (_Item_) and 5 binary features (_C1...C5_). These features can be grouped in 24 groups:
 
 ```
@@ -92,7 +92,7 @@ Considering that:
 
 it's possible to say that the euclidean distance seems to be the best choice on this dataset.
 
-## Cluster Visualization
+## Cluster visualization
 To visualize the clustering 3 different techniques where used: [PCA](https://en.wikipedia.org/wiki/Principal_component_analysis), [TSNE](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding) and [MDS](https://en.wikipedia.org/wiki/Multidimensional_scaling).
 
 **sklearn euclidean**
